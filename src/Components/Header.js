@@ -7,7 +7,7 @@ const Header = () =>{
 			<div className="logo-place">
 				<div className="container">
 					<div className="inner-logo-place">
-						<a className="navbar-brand" href="index.html">
+						<a className="navbar-brand" href="/">
 							{/* <img src="images/logo.png" alt=""/> */}
 							Codebusters,GLAU
 						</a>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link} from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -17,41 +18,41 @@ const Navbar = () => {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <a className="search-button" href="#">
+          <Link className="search-button" to="#">
             <i className="fa fa-search"></i>
-          </a>
+          </Link>
           <form className="form-search">
             <input type="search" placeholder="Search:" />
           </form>
           <ul className="navbar-nav m-auto">
             <li>
-              <a href="contact.html">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="contact.html">Single</a>
+              <Link to="/single">Single</Link>
             </li>
             <li>
-              <a href="contact.html">Category</a>
+              <Link to="/category">Category</Link>
             </li>
             <li>
-              <a href="contact.html">Contact</a>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
           <ul className="navbar-nav ml-auto social-list">
             <li>
-              <a href="#">
+              <Link to="#">
                 <i className="fa fa-facebook"></i>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#">
+              <Link to="#">
                 <i className="fa fa-twitter"></i>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#">
+              <Link to="#">
                 <i className="fa fa-instagram"></i>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
