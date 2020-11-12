@@ -68,3 +68,5 @@ const FreshStories = () =>{
 		</section>
     );
 };
+
+export default FreshStories;

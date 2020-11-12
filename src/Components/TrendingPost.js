@@ -90,3 +90,5 @@ const TrendingPost =() =>{
 		</section>
     );
 };
+
+export default TrendingPost;

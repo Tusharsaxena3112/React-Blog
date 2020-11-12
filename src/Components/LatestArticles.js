@@ -236,3 +236,5 @@ const LatestArticles = () =>{
 
     );
 };
+
+export default LatestArticles;
