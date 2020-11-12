@@ -1,0 +1,21 @@
+body{
+	background-color:#2ce0d4;
+}
+@keyframes example {
+  from {font-family:italic;
+  		}
+  to {font-family:fantasy;
+  }
+}
+h1{
+	font-weight: bold;
+	font-size: 190px;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	color:brown;
+	text-decoration: underline;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+input{
+	background-color: #bfff00;
+}
