@@ -22,7 +22,6 @@ const Slider = () =>{
                             </div>
                         </div>
                     </div>
-    
                     <div className="item">
                         <div className="news-post image-post">
                             <img src="upload/blog/home5/sl2.jpg" alt=""/>
@@ -46,3 +45,4 @@ const Slider = () =>{
     </section>
     );
 }; 
+export default Slider;
