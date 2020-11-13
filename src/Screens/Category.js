@@ -2,8 +2,8 @@ import React from "react";
 import Header from '../Components/Header';
 import BreadCrumb from '../Components/BreadCrumb';
 import Posts from '../Components/Posts';
-import Pagination from '../Components/Pagination';
 import Sidebar from "../Components/SideBar";
+import Footer from '../Components/Footer';
 
 const Category = () =>{
     return (
@@ -18,6 +18,7 @@ const Category = () =>{
                 </div>
             </div>
         </section>
+        <Footer/>
         </>
     ) 
 };

@@ -16,14 +16,14 @@ const LatestArticles = () =>{
 									<img src="upload/blog/home5/a5.jpg" alt=""/>
 								</div>
 								<a className="text-link" href="#">Travel</a>
-								<h2><a href="single-post.html">Vivamus vestibulum ntulla necante.</a></h2>
+								<h2><a href="/single">Vivamus vestibulum ntulla necante.</a></h2>
 								<ul className="post-tags">
 									<li>3 days ago</li>
 									<li><a href="#">3 comments</a></li>
 									<li>by <a href="#">John Smith</a></li>
 								</ul>
 								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna viverra donec nec justo eget felis facilisis fermentum Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
-								<a className="text-link" href="single-post.html">Read More</a>
+								<a className="text-link" href="/single">Read More</a>
 							</div>
 
 							<div className="news-post article-post2">
@@ -35,14 +35,14 @@ const LatestArticles = () =>{
 									</div>
 									<div className="col-md-6">
 										<a className="text-link" href="#">Food</a>
-										<h2><a href="single-post.html">Nullam malesuada eratut turpis.</a></h2>
+										<h2><a href="/single">Nullam malesuada eratut turpis.</a></h2>
 										<ul className="post-tags">
 											<li>3 days ago</li>
 											<li><a href="#">3 comments</a></li>
 											<li>by <a href="#">John Smith</a></li>
 										</ul>
 										<p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt ...</p>
-										<a className="text-link" href="single-post.html">Read More</a>
+										<a className="text-link" href="/single">Read More</a>
 									</div>
 								</div>
 							</div>
@@ -56,14 +56,14 @@ const LatestArticles = () =>{
 									</div>
 									<div className="col-md-6">
 										<a className="text-link" href="#">Lifestyle</a>
-										<h2><a href="single-post.html">Vivamus vestibulum ntulla necante.</a></h2>
+										<h2><a href="/single">Vivamus vestibulum ntulla necante.</a></h2>
 										<ul className="post-tags">
 											<li>3 days ago</li>
 											<li><a href="#">3 comments</a></li>
 											<li>by <a href="#">John Smith</a></li>
 										</ul>
 										<p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt ...</p>
-										<a className="text-link" href="single-post.html">Read More</a>
+										<a className="text-link" href="/single">Read More</a>
 									</div>
 								</div>
 							</div>
@@ -81,14 +81,14 @@ const LatestArticles = () =>{
 									</div>
 									<div className="col-md-6">
 										<a className="text-link" href="#">Lifestyle</a>
-										<h2><a href="single-post.html">Morbi in sem quis duiplacerat ornare hendrerit. </a></h2>
+										<h2><a href="/single">Morbi in sem quis duiplacerat ornare hendrerit. </a></h2>
 										<ul className="post-tags">
 											<li>3 days ago</li>
 											<li><a href="#">3 comments</a></li>
 											<li>by <a href="#">John Smith</a></li>
 										</ul>
 										<p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt ...</p>
-										<a className="text-link" href="single-post.html">Read More</a>
+										<a className="text-link" href="/single">Read More</a>
 									</div>
 								</div>
 							</div>
@@ -102,14 +102,14 @@ const LatestArticles = () =>{
 									</div>
 									<div className="col-md-6">
 										<a className="text-link" href="#">Food</a>
-										<h2><a href="single-post.html">Aliquam tincidunt mauris.</a></h2>
+										<h2><a href="/single">Aliquam tincidunt mauris.</a></h2>
 										<ul className="post-tags">
 											<li>3 days ago</li>
 											<li><a href="#">3 comments</a></li>
 											<li>by <a href="#">John Smith</a></li>
 										</ul>
 										<p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt ...</p>
-										<a className="text-link" href="single-post.html">Read More</a>
+										<a className="text-link" href="/single">Read More</a>
 									</div>
 								</div>
 							</div>
@@ -195,7 +195,7 @@ const LatestArticles = () =>{
 								<ul className="list-posts">
 									<li>
 										<a className="text-link" href="#">Lifestyle</a>
-										<h2><a href="single-post.html">Fusce pellentesque suscipit.</a></h2>
+										<h2><a href="/single">Fusce pellentesque suscipit.</a></h2>
 										<ul className="post-tags">
 											<li>2 days ago</li>
 											<li><a href="#">0 comments</a></li>
@@ -203,7 +203,7 @@ const LatestArticles = () =>{
 									</li>
 									<li>
 										<a className="text-link" href="#">Food</a>
-										<h2><a href="single-post.html">Integer vitae libero ac risus egestas placerat.</a></h2>
+										<h2><a href="/single">Integer vitae libero ac risus egestas placerat.</a></h2>
 										<ul className="post-tags">
 											<li>2 days ago</li>
 											<li><a href="#">3 comments</a></li>
@@ -211,7 +211,7 @@ const LatestArticles = () =>{
 									</li>
 									<li>
 										<a className="text-link" href="#">Lifestyle</a>
-										<h2><a href="single-post.html">Vestibulum commodo felisquis tortor.</a></h2>
+										<h2><a href="/single">Vestibulum commodo felisquis tortor.</a></h2>
 										<ul className="post-tags">
 											<li>4 days ago</li>
 											<li><a href="#">0 comments</a></li>
@@ -219,7 +219,7 @@ const LatestArticles = () =>{
 									</li>
 									<li>
 										<a className="text-link" href="#">Travel</a>
-										<h2><a href="single-post.html">Quisque a lectus. </a></h2>
+										<h2><a href="/single">Quisque a lectus. </a></h2>
 										<ul className="post-tags">
 											<li>4 days ago</li>
 											<li><a href="#">0 comments</a></li>

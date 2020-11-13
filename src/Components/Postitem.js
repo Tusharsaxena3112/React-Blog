@@ -15,7 +15,7 @@ const Postitem = () => {
               Food
             </a>
             <h2>
-              <a href="single-post.html">Nullam malesuada eratut turpis.</a>
+              <a href="/single">Nullam malesuada eratut turpis.</a>
             </h2>
             <ul class="post-tags">
               <li>3 days ago</li>
@@ -47,7 +47,7 @@ const Postitem = () => {
               Food
             </a>
             <h2>
-              <a href="single-post.html">Vivamus vestibulum ntulla necante.</a>
+              <a href="/single">Vivamus vestibulum ntulla necante.</a>
             </h2>
             <ul class="post-tags">
               <li>3 days ago</li>
@@ -79,7 +79,7 @@ const Postitem = () => {
               Food
             </a>
             <h2>
-              <a href="single-post.html">
+              <a href="/single">
                 Morbi in sem quis duiplacerat ornare hendrerit.{" "}
               </a>
             </h2>
@@ -119,7 +119,7 @@ const Postitem = () => {
               Food
             </a>
             <h2>
-              <a href="single-post.html">Aliquam tincidunt mauris eurisus.</a>
+              <a href="/single">Aliquam tincidunt mauris eurisus.</a>
             </h2>
             <ul class="post-tags">
               <li>3 days ago</li>
@@ -151,7 +151,7 @@ const Postitem = () => {
               Food
             </a>
             <h2>
-              <a href="single-post.html">Nullam malesuada eratut turpis.</a>
+              <a href="/single">Nullam malesuada eratut turpis.</a>
             </h2>
             <ul class="post-tags">
               <li>3 days ago</li>
@@ -183,7 +183,7 @@ const Postitem = () => {
               Food
             </a>
             <h2>
-              <a href="single-post.html">Vivamus vestibulum ntulla necante.</a>
+              <a href="/single">Vivamus vestibulum ntulla necante.</a>
             </h2>
             <ul class="post-tags">
               <li>3 days ago</li>
