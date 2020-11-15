@@ -2,22 +2,22 @@ import React from "react";
 
 const Postitem = () => {
   return (
-    <div class="blog-box list-style">
-      <div class="news-post article-post2">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="image-holder">
+    <div className="blog-box list-style">
+      <div className="news-post article-post2">
+        <div className="row">
+          <div className="col-md-6">
+            <div className="image-holder">
               <img src="upload/blog/f1.jpg" alt="" />
             </div>
           </div>
-          <div class="col-md-6">
-            <a class="text-link" href="#">
+          <div className="col-md-6">
+            <a className="text-link" href="#">
               Food
             </a>
             <h2>
               <a href="/single">Nullam malesuada eratut turpis.</a>
             </h2>
-            <ul class="post-tags">
+            <ul className="post-tags">
               <li>3 days ago</li>
               <li>
                 <a href="#">3 comments</a>
@@ -35,21 +35,21 @@ const Postitem = () => {
         </div>
       </div>
 
-      <div class="news-post article-post2">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="image-holder">
+      <div className="news-post article-post2">
+        <div className="row">
+          <div className="col-md-6">
+            <div className="image-holder">
               <img src="upload/blog/f2.jpg" alt="" />
             </div>
           </div>
-          <div class="col-md-6">
-            <a class="text-link" href="#">
+          <div className="col-md-6">
+            <a className="text-link" href="#">
               Food
             </a>
             <h2>
               <a href="/single">Vivamus vestibulum ntulla necante.</a>
             </h2>
-            <ul class="post-tags">
+            <ul className="post-tags">
               <li>3 days ago</li>
               <li>
                 <a href="#">3 comments</a>
@@ -67,15 +67,15 @@ const Postitem = () => {
         </div>
       </div>
 
-      <div class="news-post article-post2">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="image-holder">
+      <div className="news-post article-post2">
+        <div className="row">
+          <div className="col-md-6">
+            <div className="image-holder">
               <img src="upload/blog/f3.jpg" alt="" />
             </div>
           </div>
-          <div class="col-md-6">
-            <a class="text-link" href="#">
+          <div className="col-md-6">
+            <a className="text-link" href="#">
               Food
             </a>
             <h2>
@@ -83,7 +83,7 @@ const Postitem = () => {
                 Morbi in sem quis duiplacerat ornare hendrerit.{" "}
               </a>
             </h2>
-            <ul class="post-tags">
+            <ul className="post-tags">
               <li>3 days ago</li>
               <li>
                 <a href="#">3 comments</a>
@@ -101,27 +101,27 @@ const Postitem = () => {
         </div>
       </div>
 
-      <div class="advertise-box">
+      <div className="advertise-box">
         <a href="#">
           <img src="upload/banners/ban3.jpg" alt="" />
         </a>
       </div>
 
-      <div class="news-post article-post2">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="image-holder">
+      <div className="news-post article-post2">
+        <div className="row">
+          <div className="col-md-6">
+            <div className="image-holder">
               <img src="upload/blog/f4.jpg" alt="" />
             </div>
           </div>
-          <div class="col-md-6">
-            <a class="text-link" href="#">
+          <div className="col-md-6">
+            <a className="text-link" href="#">
               Food
             </a>
             <h2>
               <a href="/single">Aliquam tincidunt mauris eurisus.</a>
             </h2>
-            <ul class="post-tags">
+            <ul className="post-tags">
               <li>3 days ago</li>
               <li>
                 <a href="#">3 comments</a>
@@ -139,21 +139,21 @@ const Postitem = () => {
         </div>
       </div>
 
-      <div class="news-post article-post2">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="image-holder">
+      <div className="news-post article-post2">
+        <div className="row">
+          <div className="col-md-6">
+            <div className="image-holder">
               <img src="upload/blog/f5.jpg" alt="" />
             </div>
           </div>
-          <div class="col-md-6">
-            <a class="text-link" href="#">
+          <div className="col-md-6">
+            <a className="text-link" href="#">
               Food
             </a>
             <h2>
               <a href="/single">Nullam malesuada eratut turpis.</a>
             </h2>
-            <ul class="post-tags">
+            <ul className="post-tags">
               <li>3 days ago</li>
               <li>
                 <a href="#">3 comments</a>
@@ -171,21 +171,21 @@ const Postitem = () => {
         </div>
       </div>
 
-      <div class="news-post article-post2">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="image-holder">
+      <div className="news-post article-post2">
+        <div className="row">
+          <div className="col-md-6">
+            <div className="image-holder">
               <img src="upload/blog/f6.jpg" alt="" />
             </div>
           </div>
-          <div class="col-md-6">
-            <a class="text-link" href="#">
+          <div className="col-md-6">
+            <a className="text-link" href="#">
               Food
             </a>
             <h2>
               <a href="/single">Vivamus vestibulum ntulla necante.</a>
             </h2>
-            <ul class="post-tags">
+            <ul className="post-tags">
               <li>3 days ago</li>
               <li>
                 <a href="#">3 comments</a>
@@ -203,10 +203,10 @@ const Postitem = () => {
         </div>
       </div>
 
-      <div class="pagination-box">
-        <ul class="pagination-list">
+      <div className="pagination-box">
+        <ul className="pagination-list">
           <li>
-            <a href="#" class="active">
+            <a href="#" className="active">
               1
             </a>
           </li>
@@ -215,7 +215,7 @@ const Postitem = () => {
           </li>
           <li>
             <a href="#">
-              Next Page <i class="fa fa-angle-right"></i>
+              Next Page <i className="fa fa-angle-right"></i>
             </a>
           </li>
         </ul>

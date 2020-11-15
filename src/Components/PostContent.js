@@ -3,28 +3,28 @@ import ShareTags from '../Components/ShareTags';
 
 const PostContent = () => {
   return (
-    <div class="post-content">
-      <div class="post-social">
+    <div className="post-content">
+      <div className="post-social">
         <span>Share</span>
-        <ul class="share-post">
+        <ul className="share-post">
           <li>
-            <a href="#" class="facebook">
-              <i class="fa fa-facebook"></i>
+            <a href="#" className="facebook">
+              <i className="fa fa-facebook"></i>
             </a>
           </li>
           <li>
-            <a href="#" class="twitter">
-              <i class="fa fa-twitter"></i>
+            <a href="#" className="twitter">
+              <i className="fa fa-twitter"></i>
             </a>
           </li>
           <li>
-            <a href="#" class="pinterest">
-              <i class="fa fa-pinterest"></i>
+            <a href="#" className="pinterest">
+              <i className="fa fa-pinterest"></i>
             </a>
           </li>
         </ul>
       </div>
-      <div class="post-content-text">
+      <div className="post-content-text">
         <p>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus
           hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet
@@ -63,12 +63,12 @@ const PostContent = () => {
           tellus ante, mattis eget, gravida vitae, ultricies ac, leo. Integer
           leo pede, ornare a, lacinia eu, vulputate vel, nisl.
         </p>
-        <div class="image-alt-box">
-          <div class="image-holder">
+        <div className="image-alt-box">
+          <div className="image-holder">
             <img src="upload/single/2.jpg" alt="" />
             <span>Nulla sed leo.</span>
           </div>
-          <div class="image-holder">
+          <div className="image-holder">
             <img src="upload/single/3.jpg" alt="" />
             <span>Fusce lacinia arcu et nulla.</span>
           </div>

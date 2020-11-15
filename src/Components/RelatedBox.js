@@ -2,23 +2,23 @@ import React from "react";
 
 const Related = () => {
   return (
-    <div class="related-box">
+    <div className="related-box">
       <h2>Related Posts</h2>
-      <div class="row">
-        <div class="col-lg-4 col-md-4">
-          <div class="news-post standard-post text-left">
-            <div class="image-holder">
+      <div className="row">
+        <div className="col-lg-4 col-md-4">
+          <div className="news-post standard-post text-left">
+            <div className="image-holder">
               <a href="single-post.html">
                 <img src="upload/blog/p1.jpg" alt="" />
               </a>
             </div>
-            <a class="text-link" href="#">
+            <a className="text-link" href="#">
               Food
             </a>
             <h2>
               <a href="single-post.html">Fusce pellentesque suscipit.</a>
             </h2>
-            <ul class="post-tags">
+            <ul className="post-tags">
               <li>
                 by <a href="#">Stan Enemy</a>
               </li>
@@ -26,20 +26,20 @@ const Related = () => {
             </ul>
           </div>
         </div>
-        <div class="col-lg-4 col-md-4">
-          <div class="news-post standard-post text-left">
-            <div class="image-holder">
+        <div className="col-lg-4 col-md-4">
+          <div className="news-post standard-post text-left">
+            <div className="image-holder">
               <a href="single-post.html">
                 <img src="upload/blog/p2.jpg" alt="" />
               </a>
             </div>
-            <a class="text-link" href="#">
+            <a className="text-link" href="#">
               Lifestyle
             </a>
             <h2>
               <a href="single-post.html">Quisque a lectus. </a>
             </h2>
-            <ul class="post-tags">
+            <ul className="post-tags">
               <li>
                 by <a href="#">Stan Enemy</a>
               </li>
@@ -47,20 +47,20 @@ const Related = () => {
             </ul>
           </div>
         </div>
-        <div class="col-lg-4 col-md-4">
-          <div class="news-post standard-post text-left">
-            <div class="image-holder">
+        <div className="col-lg-4 col-md-4">
+          <div className="news-post standard-post text-left">
+            <div className="image-holder">
               <a href="single-post.html">
                 <img src="upload/blog/p3.jpg" alt="" />
               </a>
             </div>
-            <a class="text-link" href="#">
+            <a className="text-link" href="#">
               Travel
             </a>
             <h2>
               <a href="single-post.html">Vestibulum commodo tortor.</a>
             </h2>
-            <ul class="post-tags">
+            <ul className="post-tags">
               <li>
                 by <a href="#">Stan Enemy</a>
               </li>

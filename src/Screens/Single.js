@@ -11,11 +11,11 @@ const Single = () => {
   return (
     <>
       <Header />
-      <section class="blog-section">
-        <div class="container">
-          <div class="single-post no-sidebar">
+      <section className="blog-section">
+        <div className="container">
+          <div className="single-post no-sidebar">
             <Title />
-            <div class="single-post-content">
+            <div className="single-post-content">
               <img src="upload/single/4.jpg" alt="" />
               <PostContent />
               <Related />

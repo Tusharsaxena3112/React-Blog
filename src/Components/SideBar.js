@@ -2,27 +2,27 @@ import React from "react";
 
 const Sidebar = () => {
   return (
-    <div class="col-lg-4">
-      <div class="sidebar">
-        <div class="widget social-widget">
-          <ul class="social-list">
+    <div className="col-lg-4">
+      <div className="sidebar">
+        <div className="widget social-widget">
+          <ul className="social-list">
             <li>
               <a href="#">
-                <i class="fa fa-facebook"></i>
+                <i className="fa fa-facebook"></i>
                 facebook
                 <span>25k likes</span>
               </a>
             </li>
             <li>
               <a href="#">
-                <i class="fa fa-twitter"></i>
+                <i className="fa fa-twitter"></i>
                 twitter
                 <span>31k followers</span>
               </a>
             </li>
             <li>
               <a href="#">
-                <i class="fa fa-instagram"></i>
+                <i className="fa fa-instagram"></i>
                 instagram
                 <span>31k followers</span>
               </a>
@@ -30,9 +30,9 @@ const Sidebar = () => {
           </ul>
         </div>
 
-        <div class="widget category-widget">
+        <div className="widget category-widget">
           <h2>Categories</h2>
-          <ul class="category-list">
+          <ul className="category-list">
             <li>
               <a href="#">
                 Travel <span>24</span>
@@ -50,9 +50,9 @@ const Sidebar = () => {
             </li>
           </ul>
         </div>
-        <div class="widget instagram-widget">
+        <div className="widget instagram-widget">
           <h2>Our Latest Instagram Posts</h2>
-          <ul class="insta-list">
+          <ul className="insta-list">
             <li>
               <a href="#">
                 <img src="upload/instagram/1.jpg" alt="" />
@@ -86,17 +86,17 @@ const Sidebar = () => {
           </ul>
         </div>
 
-        <div class="widget list-widget">
+        <div className="widget list-widget">
           <h2>Latest Stories</h2>
-          <ul class="list-posts">
+          <ul className="list-posts">
             <li>
-              <a class="text-link" href="#">
+              <a className="text-link" href="#">
                 Lifestyle
               </a>
               <h2>
                 <a href="single-post.html">Fusce pellentesque suscipit.</a>
               </h2>
-              <ul class="post-tags">
+              <ul className="post-tags">
                 <li>2 days ago</li>
                 <li>
                   <a href="#">0 comments</a>
@@ -104,7 +104,7 @@ const Sidebar = () => {
               </ul>
             </li>
             <li>
-              <a class="text-link" href="#">
+              <a className="text-link" href="#">
                 Food
               </a>
               <h2>
@@ -112,7 +112,7 @@ const Sidebar = () => {
                   Integer vitae libero ac risus egestas placerat.
                 </a>
               </h2>
-              <ul class="post-tags">
+              <ul className="post-tags">
                 <li>2 days ago</li>
                 <li>
                   <a href="#">3 comments</a>
@@ -120,7 +120,7 @@ const Sidebar = () => {
               </ul>
             </li>
             <li>
-              <a class="text-link" href="#">
+              <a className="text-link" href="#">
                 Lifestyle
               </a>
               <h2>
@@ -128,7 +128,7 @@ const Sidebar = () => {
                   Vestibulum commodo felisquis tortor.
                 </a>
               </h2>
-              <ul class="post-tags">
+              <ul className="post-tags">
                 <li>4 days ago</li>
                 <li>
                   <a href="#">0 comments</a>
@@ -136,13 +136,13 @@ const Sidebar = () => {
               </ul>
             </li>
             <li>
-              <a class="text-link" href="#">
+              <a className="text-link" href="#">
                 Travel
               </a>
               <h2>
                 <a href="single-post.html">Quisque a lectus. </a>
               </h2>
-              <ul class="post-tags">
+              <ul className="post-tags">
                 <li>4 days ago</li>
                 <li>
                   <a href="#">0 comments</a>

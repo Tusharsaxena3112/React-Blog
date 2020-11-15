@@ -2,8 +2,8 @@ import React from "react";
 
 const ErrorTitle = () => {
   return (
-    <section class="page-banner-section">
-      <div class="container">
+    <section className="page-banner-section">
+      <div className="container">
         <h1>Page Could Not Be Found</h1>
       </div>
     </section>
