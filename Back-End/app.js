@@ -13,6 +13,18 @@ mongoose.connection.on('error',(err)=>{
     console.log(err);
 });
 
+//Routes 
+app.get('/',(req,res)=>{
+    res.send('Hello I am Home');
+});
+app.get('/category',(req,res)=>{
+    res.send('Hello I am category Page');
+});
+app.get('/single',(req,res)=>{
+    res.send('Hello I am Single page');
+});
+
+
 
 app.listen(PORT,()=>{
     console.log('Server is running at 5000');
