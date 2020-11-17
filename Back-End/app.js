@@ -12,17 +12,16 @@ mongoose.connection.on('connected',()=>{
 mongoose.connection.on('error',(err)=>{
     console.log(err);
 });
+//models import 
 
+require('./models/post');
+require('./models/category');
+
+
+app.use(express.json()); 
 //Routes 
-app.get('/',(req,res)=>{
-    res.send('Hello I am Home');
-});
-app.get('/category',(req,res)=>{
-    res.send('Hello I am category Page');
-});
-app.get('/single',(req,res)=>{
-    res.send('Hello I am Single page');
-});
+app.use(require('./routes/post'));
+app.use(require('./routes/category'));
 
 
 
